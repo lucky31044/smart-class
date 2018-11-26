@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hey.abhinav.example.com.sgnfbdata">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PhoneAuthentication" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AboutSection" />
+        <activity
+            android:name=".MainActivity_FBupdate"
+            android:label="@string/title_activity_main__fbupdate" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Fileuploader" />
+        <activity android:name=".ViewUploadsActivity" />
+        <activity android:name=".MainActivityChat" />
+        <activity android:name=".Aboutvid"
+            ></activity>
+    </application>
+
+</manifest>

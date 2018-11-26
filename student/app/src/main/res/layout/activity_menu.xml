@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MenuActivity"
+    android:background="@drawable/wall0"
+    android:id="@+id/ll">
+
+    <ImageView
+        android:layout_width="422dp"
+        android:layout_height="153dp"
+        android:layout_x="34dp"
+        android:layout_y="31dp"
+        android:src="@mipmap/logo" />
+
+
+    <ImageButton
+        android:id="@+id/ass"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_x="96dp"
+        android:layout_y="208dp"
+        android:background="@drawable/cerclebackgroundpurple"
+        android:padding="10dp"
+        android:src="@drawable/assignments" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_x="55dp"
+        android:layout_y="282dp"
+        android:text="Assignments"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/gc"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_x="264dp"
+        android:layout_y="208dp"
+        android:background="@drawable/cerclebackgroundpink"
+        android:padding="10dp"
+        android:src="@drawable/chat" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_x="230dp"
+        android:layout_y="282dp"
+        android:text="Group Chats"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ntc"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_x="96dp"
+        android:layout_y="348dp"
+        android:background="@drawable/cerclebackgroundgreen"
+        android:padding="10dp"
+        android:src="@drawable/notices" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_x="85dp"
+        android:layout_y="417dp"
+        android:text="Notices"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/attc"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_x="264dp"
+        android:layout_y="348dp"
+        android:background="@drawable/cerclebackgroundyello"
+        android:padding="10dp"
+        android:src="@drawable/attachments" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_x="226dp"
+        android:layout_y="417dp"
+        android:text="Attachments"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/abt"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_x="96dp"
+        android:layout_y="478dp"
+        android:background="@drawable/cerclebackgroundred"
+        android:padding="10dp"
+        android:src="@drawable/about" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_x="97dp"
+        android:layout_y="557dp"
+        android:text="About"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/signOut"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_x="264dp"
+        android:layout_y="478dp"
+        android:background="@drawable/cerclebackgroundpurple"
+        android:padding="10dp"
+        android:src="@drawable/signout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_x="250dp"
+        android:layout_y="557dp"
+        android:text="Sign Out"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+</AbsoluteLayout>
