@@ -1,0 +1,2 @@
+# smart-class
+student app
